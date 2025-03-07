@@ -32,7 +32,7 @@
 .header__nav_list_input{
     width: 100%;
     height: 100%;
-    padding: 24px 20px;
+    padding: 16px 12px;
     box-sizing: border-box;
     background-color: var(--cor-texto);
     border-radius: 32px;
@@ -51,4 +51,38 @@
     width: 24px;
     height: 24px;
     pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header__nav_list{
+        grid-template-areas: 
+        "logo sobre login perfil carrinho"
+        "input input input input input";
+        grid-template-columns: 1fr 2fr .5fr .5fr .5fr;
+    }
+
+    .header__logo{
+        grid-area: logo;
+        justify-self: center;
+    }
+
+    .header__nav_list_item-sobre{
+        grid-area: sobre;
+    }
+
+    .header__nav_list_item-login{
+        grid-area: login;
+    }
+
+    .header__nav_list_item-profile{
+        grid-area: perfi;
+    }
+
+    .header__nav_list_item-basket{
+        grid-area: carrinho;
+    }
+
+    .header__nav_list_item-input{
+        grid-area: input;
+    }
 }
