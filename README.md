@@ -79,6 +79,6 @@ To run this project locally, follow these steps:
 This project is intended for educational purposes and as a demonstration of my learning progress. Feel free to explore the code and use it as a reference for your own projects. If you'd like to customize it for your own website, you can fork the repository and make changes as needed. 🛠️  
 
 ---  
-## ⭐ Site: aluraplus-alura-puce.vercel.app
+## ⭐ Site: https://use-dev-alura.vercel.app
 
 Thank you for checking out the **useDev** project!  This is a work in progress and part of my learning journey with Alura. Stay tuned for more updates! 🚀 
